@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138E397B30A86AE7FF7C273C /* libPods-FLXVViewTableTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA079474CD8C68C705AA9F23 /* libPods-FLXVViewTableTest.a */; };
+		529027C71B0F662A00705A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 529027C61B0F662A00705A30 /* main.m */; };
+		529027CA1B0F662A00705A30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 529027C91B0F662A00705A30 /* AppDelegate.m */; };
+		529027CD1B0F662A00705A30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529027CC1B0F662A00705A30 /* ViewController.m */; };
+		529027D01B0F662A00705A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529027CE1B0F662A00705A30 /* Main.storyboard */; };
+		529027D21B0F662A00705A30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529027D11B0F662A00705A30 /* Images.xcassets */; };
+		529027D51B0F662A00705A30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 529027D31B0F662A00705A30 /* LaunchScreen.xib */; };
+		529027E11B0F662A00705A30 /* FLXVViewTableTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 529027E01B0F662A00705A30 /* FLXVViewTableTestTests.m */; };
+		529027EC1B0F673E00705A30 /* TestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 529027EB1B0F673E00705A30 /* TestCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		529027DB1B0F662A00705A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 529027B91B0F662A00705A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 529027C01B0F662A00705A30;
+			remoteInfo = FLXVViewTableTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2B538DBD2AFFE26937B135 /* Pods-FLXVViewTableTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLXVViewTableTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLXVViewTableTest/Pods-FLXVViewTableTest.release.xcconfig"; sourceTree = "<group>"; };
+		529027C11B0F662A00705A30 /* FLXVViewTableTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLXVViewTableTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		529027C51B0F662A00705A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529027C61B0F662A00705A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		529027C81B0F662A00705A30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		529027C91B0F662A00705A30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		529027CB1B0F662A00705A30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		529027CC1B0F662A00705A30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		529027CF1B0F662A00705A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		529027D11B0F662A00705A30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		529027D41B0F662A00705A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		529027DA1B0F662A00705A30 /* FLXVViewTableTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLXVViewTableTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		529027DF1B0F662A00705A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		529027E01B0F662A00705A30 /* FLXVViewTableTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLXVViewTableTestTests.m; sourceTree = "<group>"; };
+		529027EA1B0F673E00705A30 /* TestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCell.h; sourceTree = "<group>"; };
+		529027EB1B0F673E00705A30 /* TestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCell.m; sourceTree = "<group>"; };
+		87D2F0CC571E3D7E4090809B /* Pods-FLXVViewTableTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLXVViewTableTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLXVViewTableTest/Pods-FLXVViewTableTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AA079474CD8C68C705AA9F23 /* libPods-FLXVViewTableTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLXVViewTableTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529027BE1B0F662A00705A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138E397B30A86AE7FF7C273C /* libPods-FLXVViewTableTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529027D71B0F662A00705A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E328815C63770359A5E9F87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87D2F0CC571E3D7E4090809B /* Pods-FLXVViewTableTest.debug.xcconfig */,
+				2B2B538DBD2AFFE26937B135 /* Pods-FLXVViewTableTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		529027B81B0F662A00705A30 = {
+			isa = PBXGroup;
+			children = (
+				529027C31B0F662A00705A30 /* FLXVViewTableTest */,
+				529027DD1B0F662A00705A30 /* FLXVViewTableTestTests */,
+				529027C21B0F662A00705A30 /* Products */,
+				4E328815C63770359A5E9F87 /* Pods */,
+				82C7C5F3099A11B5B75E6709 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		529027C21B0F662A00705A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				529027C11B0F662A00705A30 /* FLXVViewTableTest.app */,
+				529027DA1B0F662A00705A30 /* FLXVViewTableTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		529027C31B0F662A00705A30 /* FLXVViewTableTest */ = {
+			isa = PBXGroup;
+			children = (
+				529027C81B0F662A00705A30 /* AppDelegate.h */,
+				529027C91B0F662A00705A30 /* AppDelegate.m */,
+				529027CB1B0F662A00705A30 /* ViewController.h */,
+				529027CC1B0F662A00705A30 /* ViewController.m */,
+				529027EA1B0F673E00705A30 /* TestCell.h */,
+				529027EB1B0F673E00705A30 /* TestCell.m */,
+				529027CE1B0F662A00705A30 /* Main.storyboard */,
+				529027D11B0F662A00705A30 /* Images.xcassets */,
+				529027D31B0F662A00705A30 /* LaunchScreen.xib */,
+				529027C41B0F662A00705A30 /* Supporting Files */,
+			);
+			path = FLXVViewTableTest;
+			sourceTree = "<group>";
+		};
+		529027C41B0F662A00705A30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				529027C51B0F662A00705A30 /* Info.plist */,
+				529027C61B0F662A00705A30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		529027DD1B0F662A00705A30 /* FLXVViewTableTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				529027E01B0F662A00705A30 /* FLXVViewTableTestTests.m */,
+				529027DE1B0F662A00705A30 /* Supporting Files */,
+			);
+			path = FLXVViewTableTestTests;
+			sourceTree = "<group>";
+		};
+		529027DE1B0F662A00705A30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				529027DF1B0F662A00705A30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82C7C5F3099A11B5B75E6709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA079474CD8C68C705AA9F23 /* libPods-FLXVViewTableTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		529027C01B0F662A00705A30 /* FLXVViewTableTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529027E41B0F662A00705A30 /* Build configuration list for PBXNativeTarget "FLXVViewTableTest" */;
+			buildPhases = (
+				382DC9770403976AB0B5A17C /* Check Pods Manifest.lock */,
+				529027BD1B0F662A00705A30 /* Sources */,
+				529027BE1B0F662A00705A30 /* Frameworks */,
+				529027BF1B0F662A00705A30 /* Resources */,
+				8AF5B06F75C0D40DF7495C7F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLXVViewTableTest;
+			productName = FLXVViewTableTest;
+			productReference = 529027C11B0F662A00705A30 /* FLXVViewTableTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		529027D91B0F662A00705A30 /* FLXVViewTableTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529027E71B0F662A00705A30 /* Build configuration list for PBXNativeTarget "FLXVViewTableTestTests" */;
+			buildPhases = (
+				529027D61B0F662A00705A30 /* Sources */,
+				529027D71B0F662A00705A30 /* Frameworks */,
+				529027D81B0F662A00705A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				529027DC1B0F662A00705A30 /* PBXTargetDependency */,
+			);
+			name = FLXVViewTableTestTests;
+			productName = FLXVViewTableTestTests;
+			productReference = 529027DA1B0F662A00705A30 /* FLXVViewTableTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		529027B91B0F662A00705A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					529027C01B0F662A00705A30 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					529027D91B0F662A00705A30 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 529027C01B0F662A00705A30;
+					};
+				};
+			};
+			buildConfigurationList = 529027BC1B0F662A00705A30 /* Build configuration list for PBXProject "FLXVViewTableTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 529027B81B0F662A00705A30;
+			productRefGroup = 529027C21B0F662A00705A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				529027C01B0F662A00705A30 /* FLXVViewTableTest */,
+				529027D91B0F662A00705A30 /* FLXVViewTableTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		529027BF1B0F662A00705A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529027D01B0F662A00705A30 /* Main.storyboard in Resources */,
+				529027D51B0F662A00705A30 /* LaunchScreen.xib in Resources */,
+				529027D21B0F662A00705A30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529027D81B0F662A00705A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		382DC9770403976AB0B5A17C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AF5B06F75C0D40DF7495C7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLXVViewTableTest/Pods-FLXVViewTableTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		529027BD1B0F662A00705A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529027CD1B0F662A00705A30 /* ViewController.m in Sources */,
+				529027EC1B0F673E00705A30 /* TestCell.m in Sources */,
+				529027CA1B0F662A00705A30 /* AppDelegate.m in Sources */,
+				529027C71B0F662A00705A30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529027D61B0F662A00705A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529027E11B0F662A00705A30 /* FLXVViewTableTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		529027DC1B0F662A00705A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 529027C01B0F662A00705A30 /* FLXVViewTableTest */;
+			targetProxy = 529027DB1B0F662A00705A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		529027CE1B0F662A00705A30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529027CF1B0F662A00705A30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		529027D31B0F662A00705A30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				529027D41B0F662A00705A30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		529027E21B0F662A00705A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		529027E31B0F662A00705A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		529027E51B0F662A00705A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D2F0CC571E3D7E4090809B /* Pods-FLXVViewTableTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLXVViewTableTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		529027E61B0F662A00705A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2B538DBD2AFFE26937B135 /* Pods-FLXVViewTableTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLXVViewTableTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		529027E81B0F662A00705A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FLXVViewTableTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLXVViewTableTest.app/FLXVViewTableTest";
+			};
+			name = Debug;
+		};
+		529027E91B0F662A00705A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FLXVViewTableTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLXVViewTableTest.app/FLXVViewTableTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		529027BC1B0F662A00705A30 /* Build configuration list for PBXProject "FLXVViewTableTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529027E21B0F662A00705A30 /* Debug */,
+				529027E31B0F662A00705A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529027E41B0F662A00705A30 /* Build configuration list for PBXNativeTarget "FLXVViewTableTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529027E51B0F662A00705A30 /* Debug */,
+				529027E61B0F662A00705A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		529027E71B0F662A00705A30 /* Build configuration list for PBXNativeTarget "FLXVViewTableTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				529027E81B0F662A00705A30 /* Debug */,
+				529027E91B0F662A00705A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 529027B91B0F662A00705A30 /* Project object */;
+}

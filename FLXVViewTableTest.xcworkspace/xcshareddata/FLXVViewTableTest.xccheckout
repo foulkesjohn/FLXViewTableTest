@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA893E9C-787C-411B-9C22-2B15711F874E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FLXVViewTableTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>363E9CD8ECEF8995B6847819AE07CEC131AA436D</key>
+		<string>github.com:foulkesjohn/FLXViewTableTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FLXVViewTableTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>363E9CD8ECEF8995B6847819AE07CEC131AA436D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:foulkesjohn/FLXViewTableTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>363E9CD8ECEF8995B6847819AE07CEC131AA436D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>363E9CD8ECEF8995B6847819AE07CEC131AA436D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FLXViewTableTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

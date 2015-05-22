@@ -1,0 +1,13 @@
+PODS:
+  - css-layout (0.0.1)
+  - FLXView (0.0.1):
+    - css-layout (= 0.0.1)
+
+DEPENDENCIES:
+  - FLXView
+
+SPEC CHECKSUMS:
+  css-layout: 889355377e5e379bf0a378c31b41da7a556a8803
+  FLXView: f7d2aa7de69bab7154d24d4124a8c4fbc29d50bc
+
+COCOAPODS: 0.34.4
